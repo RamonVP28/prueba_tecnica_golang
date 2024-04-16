@@ -13,7 +13,7 @@ var users = make(map[string]models.User)
 // CheckUserExists checks if the user is already registered
 func CheckUserExists(email, phone, username string) bool {
 	for _, user := range users {
-		if user.Email == email || user.Phone == phone {
+		if user.Email == email || user.Phone == phone || user.Username == username {
 			return true
 		}
 	}
