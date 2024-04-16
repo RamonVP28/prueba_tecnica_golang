@@ -1,0 +1,21 @@
+Instalar Golang y configurar el sistema.
+
+Crear modulo de Go.
+go mod init PruebaTecnica_Go
+
+Actualizar dependencias.
+go mod tidy
+
+Descargar dependencias necesarias.
+go get -u github.com/gorilla/mux
+go get -u github.com/dgrijalva/jwt-go
+
+Limpiar cache.
+go clean -modcache
+go clean -cache
+
+Rebuild proyecto.
+go build ./...
+
+Ejecutar tests.
+go test ./...
