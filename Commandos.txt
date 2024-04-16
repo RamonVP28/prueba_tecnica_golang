@@ -1,7 +1,7 @@
 Instalar Golang y configurar el sistema.
 
 Crear modulo de Go.
-go mod init PruebaTecnica_Go
+go mod init prueba_tecnica_golang
 
 Actualizar dependencias.
 go mod tidy
