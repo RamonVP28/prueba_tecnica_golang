@@ -28,7 +28,6 @@ Para ejecutar este proyecto necesitas tener Go instalado en tu máquina. Visita 
 
 git clone https://github.com/RamonVP28/prueba_tecnica_golang.git
 
-cd users-services
 
 2. **Ejecutar el Servicio**
 
